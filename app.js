@@ -27,15 +27,15 @@ const EXERCISES = {
       { value: 8, reps: 12, rest: 45 }, { value: 10, reps: 12, rest: 45 }, { value: 10, reps: 10, rest: 45 } ] },
     { id: "ohp", name: "덤벨 오버헤드프레스", unit: "kg", tip: "코어에 힘을 주고 허리가 젖혀지지 않게 유지. 덤벨을 귀 옆에서 시작해 머리 위로. 팔을 완전히 펼 때 덤벨이 살짝 안쪽으로 모이는 궤적으로!", breath: "밀어올릴 때 숨을 내쉬고, 내릴 때 들이쉬세요", sets: [
       { value: 8, reps: 12, rest: 45 }, { value: 8, reps: 12, rest: 45 }, { value: 8, reps: 12, rest: 45 } ] },
-    { id: "lateral", name: "레터럴레이즈", unit: "kg", tip: "팔꿈치를 아주 살짝 굽힌 채로 어깨 관절을 축으로 옆으로 들어올림. 어깨 높이보다 높이 들지 말고, 손이 아니라 팔꿈치가 먼저 올라간다는 느낌으로!", breath: "들어올릴 때 숨을 내쉬고, 내릴 때 들이쉬세요", sets: [
+    { id: "lateral", name: "레터럴레이즈", unit: "kg", tip: "팔꿈치를 아주 살짝 굽힌 채로 어깨 관절을 축으로 옆으로 들어올림. 어깨 높이보다 높이 들지 말고, 손이 아니라 팔꿈치가 먼저 올라간다는 느낌으로! 손목을 꺾어 무게를 버티지 말고 팔꿈치로 리드하세요.", breath: "들어올릴 때 숨을 내쉬고, 내릴 때 들이쉬세요", sets: [
       { value: 6, reps: 12, rest: 45 }, { value: 6, reps: 12, rest: 45 }, { value: 6, reps: 12, rest: 45 } ] },
-    { id: "reardelt", name: "리어델트플라이", unit: "kg", tip: "상체를 앞으로 90도 숙이고 엄지가 안쪽으로 가도록 들고, 팔을 옆으로 벌리며 견갑골을 조인다는 느낌으로 반동 없이 천천히!", breath: "벌릴 때 숨을 내쉬고, 모을 때 들이쉬세요", sets: [
+    { id: "reardelt", name: "리어델트플라이", unit: "kg", tip: "상체를 앞으로 90도 숙이고 엄지가 안쪽으로 가도록 들고, 팔을 옆으로 벌리며 견갑골을 조인다는 느낌으로 반동 없이 천천히! 허리로 반동 주면 자극이 등으로 새니 몸통 고정에 신경 쓰세요.", breath: "벌릴 때 숨을 내쉬고, 모을 때 들이쉬세요", sets: [
       { value: 5, reps: 12, rest: 45 }, { value: 5, reps: 12, rest: 45 }, { value: 5, reps: 12, rest: 45 } ] },
     { id: "bicep", name: "덤벨 이두컬", unit: "kg", tip: "팔꿈치를 몸통에 고정하고 팔뚝만. 몸을 뒤로 젖히며 반동 주는 걸 피하고, 내릴 때도 천천히 저항을 느끼면서. 두팔 5·각팔 5·두팔 5 루틴으로!", breath: "들어올릴 때 숨을 내쉬고, 내릴 때 들이쉬세요", sets: [
       { value: 6, reps: 15, rest: 45 }, { value: 6, reps: 15, rest: 45 }, { value: 6, reps: 15, rest: 45 } ] },
-    { id: "tricep", name: "덤벨 삼두", unit: "kg", tip: "팔꿈치가 벌어지지 않게 고정하고 팔뚝만 굽혔다 폄. 원이 아닌 상하 직선 운동으로!", breath: "펼 때 숨을 내쉬고, 굽힐 때 들이쉬세요", sets: [
+    { id: "tricep", name: "덤벨 삼두", unit: "kg", tip: "팔꿈치가 벌어지지 않게 고정하고 팔뚝만 굽혔다 폄. 원이 아닌 상하 직선 운동으로! 팔꿈치가 몸통보다 앞으로 빠지면 자극이 어깨로 새니 팔꿈치 위치를 계속 확인하세요.", breath: "펼 때 숨을 내쉬고, 굽힐 때 들이쉬세요", sets: [
       { value: 14, reps: 12, rest: 45 }, { value: 14, reps: 12, rest: 45 }, { value: 14, reps: 12, rest: 45 } ] },
-    { id: "forearm", name: "전완근 (리스트컬 ↔ 리버스 바벨바)", unit: "kg", tip: "팔뚝을 무릎이나 벤치에 고정하고 손목만. 가동범위를 크게 가져가기보다 천천히 쥐어짜는 느낌이 효과적!", breath: "쥐어짤 때 숨을 내쉬고, 풀 때 들이쉬세요", sets: [
+    { id: "forearm", name: "전완근 (리스트컬 ↔ 리버스 바벨바)", unit: "kg", tip: "팔뚝을 무릎이나 벤치에 고정하고 손목만. 가동범위를 크게 가져가기보다 천천히 쥐어짜는 느낌이 효과적! 무게보다 쥐는 힘과 텐션 유지가 핵심이니 가볍게 시작해도 괜찮아요.", breath: "쥐어짤 때 숨을 내쉬고, 풀 때 들이쉬세요", sets: [
       { value: 8, reps: 20, rest: 45 }, { value: 10, reps: 12, rest: 45 }, { value: 8, reps: 20, rest: 45 },
       { value: 10, reps: 12, rest: 45 }, { value: 8, reps: 20, rest: 45 }, { value: 10, reps: 12, rest: 45 } ] },
     { id: "hangingraise1", name: "행잉 니레이즈", unit: "bodyweight", tip: "철봉에 매달려 반동 없이 무릎(또는 다리)을 배 쪽으로 끌어올리세요. 그립력이 먼저 지치니 코어 운동 중 가장 먼저 배치! 흔들림 없이 천천히 컨트롤하는 게 핵심!", breath: "다리를 끌어올릴 때 숨을 내쉬고, 내릴 때 들이쉬세요", sets: [
@@ -55,9 +55,9 @@ const EXERCISES = {
       { value: 35, reps: 12, rest: 90 }, { value: 40, reps: 10, rest: 90 }, { value: 45, reps: 8, rest: 90 } ] },
     { id: "cablerow", name: "케이블 로우", unit: "kg", tip: "허리를 곧게 세우고 앉아서, 손잡이를 배꼽 방향으로 당기며 견갑골을 조이세요. 상체가 뒤로 크게 젖혀지지 않도록 고정하고 광배와 등에 부하를 느끼며!", breath: "당길 때 숨을 내쉬고, 풀 때 들이쉬세요", sets: [
       { value: 30, reps: 12, rest: 90 }, { value: 35, reps: 10, rest: 90 }, { value: 40, reps: 8, rest: 90 } ] },
-    { id: "bulgarian", name: "불가리안스쿼트 (다리당)", unit: "bodyweight", tip: "앞무릎이 발끝을 심하게 넘어가지 않게, 상체는 살짝 앞으로 기울여 균형!", breath: "일어설 때 숨을 내쉬고, 내려갈 때 들이쉬세요", sets: [
+    { id: "bulgarian", name: "불가리안스쿼트 (다리당)", unit: "bodyweight", tip: "뒷발을 벤치에 걸치고 앞다리 위주로 체중을 실으세요. 앞무릎이 발끝을 심하게 넘어가지 않게, 상체는 살짝 앞으로 기울여 균형! 처음엔 맨몸으로 좌우 균형과 무릎 방향부터 익히세요.", breath: "일어설 때 숨을 내쉬고, 내려갈 때 들이쉬세요", sets: [
       { value: null, reps: 10, rest: 45 }, { value: null, reps: 10, rest: 45 }, { value: null, reps: 10, rest: 45 } ] },
-    { id: "calfraise", name: "카프레이즈", unit: "kg", tip: "1/3정도 걸치고 발볼로 지지한 채 뒤꿈치를 최대한 높이 들어올렸다가, 내릴 때는 뒤꿈치가 바닥보다 살짝 아래까지 늘어나게 천천히. 반동 없이!", breath: "올릴 때 숨을 내쉬고, 내릴 때 들이쉬세요", sets: [
+    { id: "calfraise", name: "카프레이즈", unit: "kg", tip: "1/3정도 걸치고 발볼로 지지한 채 뒤꿈치를 최대한 높이 들어올렸다가, 내릴 때는 뒤꿈치가 바닥보다 살짝 아래까지 늘어나게 천천히. 반동 없이! 꼭대기에서 1초 정지하면 자극이 훨씬 잘 들어와요.", breath: "올릴 때 숨을 내쉬고, 내릴 때 들이쉬세요", sets: [
       { value: 30, reps: 15, rest: 45 }, { value: 30, reps: 15, rest: 45 }, { value: 30, reps: 15, rest: 45 } ] },
     { id: "hangingraise2", name: "행잉 니레이즈", unit: "bodyweight", tip: "철봉에 매달려 반동 없이 무릎(또는 다리)을 배 쪽으로 끌어올리세요. 그립력이 먼저 지치니 코어 운동 중 가장 먼저 배치! 흔들림 없이 천천히 컨트롤하는 게 핵심!", breath: "다리를 끌어올릴 때 숨을 내쉬고, 내릴 때 들이쉬세요", sets: [
       { value: null, reps: 12, rest: 45 }, { value: null, reps: 12, rest: 45 }, { value: null, reps: 12, rest: 45 } ] },
@@ -78,21 +78,73 @@ const EXERCISES = {
   ],
 };
 
-const CARDIO_PHASES = [
-  { key: "warmup", label: "워밍업", seconds: 1 * 60, detail: "경사 3도 · 시속 4km" },
-  { key: "main", label: "본운동", seconds: 30 * 60, detail: "경사 7도·6km/h 2분 ↔ 경사 3도·6km/h 1분, 10회 반복" },
-  { key: "cooldown", label: "쿨다운", seconds: 3 * 60, detail: "경사 3도 · 시속 5km" },
-];
-
-const LOWER_CARDIO_PHASES = [
-  { key: "warmup", label: "워밍업", seconds: 1 * 60, detail: "경사 3도 · 시속 4km" },
-  { key: "main", label: "본운동", seconds: 30 * 60, detail: "경사 6도·6km/h 2분 ↔ 경사 3도·6km/h 1분, 10회 반복" },
-  { key: "cooldown", label: "쿨다운", seconds: 3 * 60, detail: "경사 3도 · 시속 5km" },
-];
-
-const REST_CARDIO_PHASES = [
-  { key: "walk", label: "가벼운 유산소", seconds: 25 * 60, detail: "경사 0도 · 시속 5.5km, 부담 없는 페이스로" },
-];
+const CARDIO_OPTIONS = {
+  upper: [
+    {
+      key: "stairs",
+      label: "계단(스텝밀)",
+      phases: [
+        { key: "warmup", label: "워밍업", seconds: 1 * 60, detail: "레벨 3~4" },
+        { key: "main", label: "본운동", seconds: 30 * 60, detail: "레벨 8~9 2분 ↔ 레벨 5 1분, 10회 반복" },
+        { key: "cooldown", label: "쿨다운", seconds: 3 * 60, detail: "레벨 4" },
+      ],
+    },
+    {
+      key: "treadmill",
+      label: "트레드밀",
+      phases: [
+        { key: "warmup", label: "워밍업", seconds: 1 * 60, detail: "경사 3도 · 시속 4km" },
+        { key: "main", label: "본운동", seconds: 30 * 60, detail: "경사 7도·6km/h 2분 ↔ 경사 3도·6km/h 1분, 10회 반복" },
+        { key: "cooldown", label: "쿨다운", seconds: 3 * 60, detail: "경사 3도 · 시속 5km" },
+      ],
+    },
+    {
+      key: "bike",
+      label: "자전거",
+      phases: [
+        { key: "warmup", label: "워밍업", seconds: 1 * 60, detail: "저항 3~4 · 70rpm" },
+        { key: "main", label: "본운동", seconds: 30 * 60, detail: "저항 8~10·70~80rpm 2분 ↔ 저항 4~5·70rpm 1분, 10회 반복" },
+        { key: "cooldown", label: "쿨다운", seconds: 3 * 60, detail: "저항 3~4 · 65~70rpm" },
+      ],
+    },
+  ],
+  lower: [
+    {
+      key: "bike",
+      label: "자전거",
+      phases: [
+        { key: "warmup", label: "워밍업", seconds: 1 * 60, detail: "저항 2~3 · 70rpm" },
+        { key: "main", label: "본운동", seconds: 30 * 60, detail: "저항 2~3 고정·90~100rpm 2분 ↔ 60~65rpm 1분, 10회 반복" },
+        { key: "cooldown", label: "쿨다운", seconds: 3 * 60, detail: "저항 2~3 · 65~70rpm" },
+      ],
+    },
+    {
+      key: "treadmill",
+      label: "트레드밀",
+      phases: [
+        { key: "warmup", label: "워밍업", seconds: 1 * 60, detail: "경사 3도 · 시속 4km" },
+        { key: "main", label: "본운동", seconds: 30 * 60, detail: "경사 6도·6km/h 2분 ↔ 경사 3도·6km/h 1분, 10회 반복" },
+        { key: "cooldown", label: "쿨다운", seconds: 3 * 60, detail: "경사 3도 · 시속 5km" },
+      ],
+    },
+    {
+      key: "stairs",
+      label: "계단(비추천)",
+      phases: [
+        { key: "warmup", label: "워밍업", seconds: 1 * 60, detail: "레벨 3" },
+        { key: "main", label: "본운동", seconds: 30 * 60, detail: "레벨 4~5 2분 ↔ 레벨 3 1분, 10회 반복 (다리 부담 낮춘 버전)" },
+        { key: "cooldown", label: "쿨다운", seconds: 3 * 60, detail: "레벨 3" },
+      ],
+    },
+  ],
+  rest: [
+    {
+      key: "walk",
+      label: "가벼운 유산소",
+      phases: [{ key: "walk", label: "가벼운 유산소", seconds: 25 * 60, detail: "경사 0도 · 시속 5.5km, 부담 없는 페이스로" }],
+    },
+  ],
+};
 
 
 // ---------- Helpers ----------
@@ -137,6 +189,7 @@ const state = {
   voiceEnabled: lsGet("wt_voice_enabled", true),
   selection: lsGet("wt_exercise_selection", {}), // { [dayType]: { [exId]: boolean } }
   selectionOpen: false,
+  cardioChoice: lsGet("wt_cardio_choice", {}), // { [dayType]: optionKey }
 };
 
 const DEFAULT_UNSELECTED = ["lateral", "reardelt", "forearm", "tricep"];
@@ -151,6 +204,17 @@ function toggleSelection(dayType, exId) {
   const next = { ...state.selection, [dayType]: { ...(state.selection[dayType] || {}), [exId]: !isSelected(dayType, exId) } };
   state.selection = next;
   lsSet("wt_exercise_selection", next);
+  render();
+}
+
+function getCardioChoice(dayType) {
+  return state.cardioChoice[dayType] || CARDIO_OPTIONS[dayType][0].key;
+}
+
+function setCardioChoiceFor(dayType, key) {
+  const next = { ...state.cardioChoice, [dayType]: key };
+  state.cardioChoice = next;
+  lsSet("wt_cardio_choice", next);
   render();
 }
 
@@ -265,12 +329,30 @@ function speak(text) {
   try {
     if (!window.speechSynthesis) return;
     window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "ko-KR";
-    u.rate = 1.0;
-    window.speechSynthesis.speak(u);
+    setTimeout(() => {
+      try {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = "ko-KR";
+        u.rate = 1.0;
+        const voices = window.speechSynthesis.getVoices();
+        const koVoice = voices.find((v) => v.lang === "ko-KR") || voices.find((v) => v.lang && v.lang.startsWith("ko"));
+        if (koVoice) u.voice = koVoice;
+        window.speechSynthesis.speak(u);
+      } catch (e) {}
+    }, 60);
   } catch (e) {}
 }
+
+// Chrome/Android는 speechSynthesis가 일정 시간 후 멈춰버리는 버그가 있어
+// 주기적으로 pause/resume을 걸어서 음성 안내가 끊기지 않게 함
+setInterval(() => {
+  try {
+    if (window.speechSynthesis && window.speechSynthesis.speaking) {
+      window.speechSynthesis.pause();
+      window.speechSynthesis.resume();
+    }
+  } catch (e) {}
+}, 8000);
 
 function toggleVoice() {
   state.voiceEnabled = !state.voiceEnabled;
@@ -532,14 +614,28 @@ function dayHTML() {
       }
     </div>`;
 
-  const cardioPhases = dayType === "rest" ? REST_CARDIO_PHASES : dayType === "lower" ? LOWER_CARDIO_PHASES : CARDIO_PHASES;
-  const cardioLabel = dayType === "rest" ? "가벼운 유산소" : "트레드밀 (웨이트 후)";
+  const cardioOptions = CARDIO_OPTIONS[dayType];
+  const cardioChoiceKey = getCardioChoice(dayType);
+  const activeCardioOption = cardioOptions.find((o) => o.key === cardioChoiceKey) || cardioOptions[0];
+  const cardioPhases = activeCardioOption.phases;
+  const cardioTabsHTML =
+    cardioOptions.length > 1
+      ? `<div style="display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap">
+          ${cardioOptions
+            .map(
+              (opt, i) =>
+                `<button data-cardiotab="${opt.key}" style="background:${opt.key === cardioChoiceKey ? "#F5C518" : "#262B34"};color:${opt.key === cardioChoiceKey ? "#14161A" : "#ECEEF2"};border:1px solid #333944;border-radius:999px;padding:5px 10px;font-size:12px;font-weight:600;cursor:pointer">${i + 1}순위 · ${opt.label}</button>`
+            )
+            .join("")}
+        </div>`
+      : "";
   const cardioHTML = `
     <div class="card" style="padding:14px;margin-top:4px">
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
         <div class="mono" style="font-size:14px;color:#3E8FB0;width:22px">${pad(exercises.length + 1)}</div>
-        <div style="font-weight:700;font-size:16px">${cardioLabel}</div>
+        <div style="font-weight:700;font-size:16px">유산소</div>
       </div>
+      ${cardioTabsHTML}
       <div style="display:flex;flex-direction:column;gap:8px">
         ${cardioPhases.map((p) => `
           <button data-cardio="${p.key}" style="display:flex;justify-content:space-between;align-items:center;background:#262B34;border:1px solid #333944;border-radius:8px;padding:10px 12px;color:#ECEEF2;cursor:pointer;text-align:left;width:100%">
@@ -970,9 +1066,17 @@ function attachHandlers() {
     el.onclick = () => {
       const key = el.getAttribute("data-cardio");
       const dayType = getDayType(state.selectedDate);
-      const phases = dayType === "rest" ? REST_CARDIO_PHASES : dayType === "lower" ? LOWER_CARDIO_PHASES : CARDIO_PHASES;
-      const phase = phases.find((p) => p.key === key);
+      const opt = CARDIO_OPTIONS[dayType].find((o) => o.key === getCardioChoice(dayType)) || CARDIO_OPTIONS[dayType][0];
+      const phase = opt.phases.find((p) => p.key === key);
       if (phase) startCardioPhaseTimer(phase.label, phase.seconds);
+    };
+  });
+
+  document.querySelectorAll("[data-cardiotab]").forEach((el) => {
+    el.onclick = () => {
+      const key = el.getAttribute("data-cardiotab");
+      const dayType = getDayType(state.selectedDate);
+      setCardioChoiceFor(dayType, key);
     };
   });
 
